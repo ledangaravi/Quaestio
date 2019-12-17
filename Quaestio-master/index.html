@@ -1,0 +1,204 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Quaestio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="https://use.typekit.net/toy2hso.css">
+	</head>
+	<body class="is-preload">
+
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#intro">Welcome</a></li>
+							<li><a href="#one">Research hypotheses&nbsp;</a></li>
+							<li><a href="#two">Design</a></li>
+							<li><a href="#three">Get in touch</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+						  <h1>Quaestio</h1>
+							<p>A Survey Robot of the next Generation for the next Generation<br/>
+							Designed: Department of Electrical and Electronic Engineering<br> at Imperial College London</p>
+							<ul class="actions">
+								<form>
+									<h2>SurveyID</h2><h4>Did you meet Quaestio on the street? Enter your SurveyID below:</h4><h6>Pssss....  Your Data is 100% anonymous.</h6>
+							  <input type="text" name="SurveyID" id="SurveyID"><br><a id="submitButton" onclick="submitClick()" class="button scrolly">View </a></form><br>
+							</ul>
+							<h3 id="Answer"></h3>
+							<div style="max-width:550px; word-wrap:break-word"><ul id="myList"></ul></div>
+						<a id="Delete" onclick="submitDelete()"></a>
+						</div>
+					</section>
+
+				<!-- One -->
+					<section id="one" class="wrapper style2 spotlights">
+						<section>
+							<a href="#" class="image"><img src="images/pic01.png" alt="" data-position="center center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Hypothesis 1</h2>
+									<p>Participants will display a 25% higher response rate when partaking in half-hour robot-led surveys as compared to human-led surveys</p>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="images/pic02.png" alt="" data-position="top center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Hypothesis 2</h2>
+									<p>The average participant will answer more short questions when interacting with a digital interface (animated face and voice/touch-screen input) as compared to a mechanical interface (mechanical face and button/slider input).</p>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="images/pic03.png" alt="" data-position="25% 25%" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Hypothesis 3&nbsp;</h2>
+									<p>The average participant will answer more personal questions when provided information on the robot’s visual and speech perception, data processing, and the possibility to manage their data at a later time.</p>
+								</div>
+							</div>
+						</section>
+					</section>
+
+				<!-- Two -->
+					<section id="two" class="wrapper style3 fade-up">
+						<div class="inner">
+							<h2>What we do</h2>
+							<p>As the survey market is currently experiencing a rapid decline in participation, this project aims to explore the possibilities of improving survey participation through the utilisation of robots. Multiple experiments as well as a system design of a robot are proposed, with the aim of investigating the impact of human-robot interaction on survey response rates.</p>
+							<div class="features">
+								<section>
+									<h3>Hardware</h3>
+									<p>Contains the mechanical face and input methods alongside the mobility related components</p>
+								</section>
+								<section>
+								  <h3>User App</h3>
+								  <p>This iOS/iPadOS app serves as the visual medium to conduct the surveys. The state controller takes in user inputs and controls the outputs.</p>
+								</section>
+								<section>
+								  <h3>Database</h3>
+									<p>The database serves as a bridge between software and hardware, stores the configuration for the robot and holds all experimental data.</p>
+								</section>
+							  <section>
+								  <h3>Admin App</h3>
+									<p>Project team members can configure the robot and view the data through this iOS/iPadOS app.</p>
+								</section>
+								<section>
+								  <h3>User Website</h3>
+									<p>Users can view and delete their own data. Users can also view the privacy policy and get in touch with the team.</p>
+								</section>
+								<section>
+								  <h3>Animoji&nbsp;</h3>
+									<p>Utilising a digital mask, the Animoji will mimic human expressions and facial movements when asking questions, as well as whilst waiting for the user to respond.</p>
+							  </section>
+							</div>
+						</div>
+					</section>
+
+				<!-- Three -->
+					<section id="three" class="wrapper style1 fade-up">
+						<div class="inner">
+						  <h2>Get in touch</h2>
+							<p>Hi, if you have a question or want to let us know about what you <br> think about Quaestio let us know and write us a message.</p>
+							<div class="split style1">
+								<section>
+										<ul class="actions">
+											<li><a href="https://forms.monday.com/forms/990ebd492fc90e105596aea3664178e9" class="button submit" target="_blank">Conntact Us</a></li>
+							  </section>
+								<section>
+									<ul class="contact">
+										<li>
+											<h3>Address</h3>
+											<span>South Kensington Campus<br>
+											EEE Department <br/>
+											London SW7 2AZ<br />
+											UK</span>
+										</li>
+										<li>
+											<h3>Email</h3>
+											<a href="mailto:365-robotmadness@groups.imperial.ac.uk">365-robotmadness@groups.imperial.ac.uk</a>
+										</li>
+										<li>
+											<h3>Team - EEE</h3>
+											Lydia Andriopoulou, Rahul Berry, Gasim Gasim, Prithvi Menon,
+Constantin Scholz, Daniel Varga, Leon Wiederkehr, Xin Zhou
+										</li>
+									
+									</ul>
+								</section>
+						  </div>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Quaestio. All rights reserved.</li><li>Design: EEE Imperial</li><li><a href="https://docs.google.com/document/d/1uH_vjLeznf4xT8NBT1Aucq95m5mnwRXC_-CP1QP1PRQ/edit?usp=sharing">Privacy Policy</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+<!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+
+  <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
+
+  <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+  <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-analytics.js"></script>
+
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-firestore.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-database.js"></script>
+
+
+	<script>
+    var firebaseConfig = {
+    apiKey: "AIzaSyDR4MYczuwRwAq0gmAyNHl_kURK3UmWlYs",
+    authDomain: "questio-a802f.firebaseapp.com",
+    databaseURL: "https://questio-a802f.firebaseio.com",
+    projectId: "questio-a802f",
+    storageBucket: "questio-a802f.appspot.com",
+    messagingSenderId: "57510774469",
+    appId: "1:57510774469:web:ab847710cf70c19026d2ac",
+    measurementId: "G-02H2ZTQ7HW"
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+			<script src="code.js"></script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
