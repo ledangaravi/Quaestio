@@ -15,8 +15,8 @@ It contains two folders one for mobility and one for the mechanical input method
 The mobility folder includes: ....
 
 ### Mechanical input methods
-First all packages from the requirements.txt file have to be installed.
-The GPIO pins used on the pi are defined in the config.py file. 
+First all packages from the *requirements.txt* file have to be installed.
+The GPIO pins used on the pi are defined in the *config.py* file. 
 
-main.py is the main file which has to be executed on start-up.
-testMotor.py & testButtons.py are two testfiles which can be used to test whether the buttons or slider are working.
+*main.py* is the main file which has to be executed on start-up.
+*testMotor.py* & *testButtons.py* are two testfiles which can be used to test whether the buttons and slider are working.
