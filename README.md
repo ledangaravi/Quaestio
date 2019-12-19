@@ -12,8 +12,12 @@ This folder contains both the dataset collected *survey_data.json* as well as th
 
 ## Robot App:
 All files regarding the iOS app for the iPad can be found in the folder Robot App.
+
+### Overall flowchart of the app can be seen here
 <img src="https://github.com/ledangaravi/Quaestio/blob/master/Schematics/flowChartUserApp.png" width="200">
-<img src="https://github.com/ledangaravi/Quaestio/blob/master/Schematics/UserAppFlowChart.png" width="200">
+
+### See how the app interfaces with firebase:
+<img src="https://github.com/ledangaravi/Quaestio/blob/master/Schematics/UserAppFlowChart.png" width="400">
 
 ## Website:
 The index.html file in the website directory allows you to manipulate the website content. The code.js file allows you to fetch the question answers from firebase.
