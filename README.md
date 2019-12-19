@@ -1,5 +1,6 @@
 # Quaestio
 Over the last few decades, there has been a drastic reduction in survey participation often with negative consequences for commercial firms and governments. Quaestio is an interactive survey robot developed with the intention of combating this decline. This repository contains Queastio's techhnical files, as well as files for the evaluation of experiments run with Queastio.
+
 <img src="https://github.com/ledangaravi/Quaestio/blob/master/Schematics/robotWhole.png" width="200">
 
 ## Head:
