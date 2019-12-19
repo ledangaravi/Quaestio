@@ -1,5 +1,6 @@
 # Quaestio
 <img src="https://github.com/ledangaravi/Quaestio/blob/master/Schematics/robotWhole.png" width="200">
+
 ## Head:
 <img src="https://github.com/ledangaravi/Quaestio/blob/master/Schematics/head.png" width="100">
 All the code controlling the head can be found in the head directory.
