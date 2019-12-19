@@ -13,10 +13,10 @@ This folder contains both the dataset collected *survey_data.json* as well as th
 ## Robot App:
 All files regarding the iOS app for the iPad can be found in the folder Robot App.
 
-### Overall flowchart of the app can be seen here
+### Overall flowchart of the app
 <img src="https://github.com/ledangaravi/Quaestio/blob/master/Schematics/flowChartUserApp.png" width="200">
 
-### See how the app interfaces with firebase:
+### See how the app interfaces
 <img src="https://github.com/ledangaravi/Quaestio/blob/master/Schematics/UserAppFlowChart.png" width="400">
 
 ## Website:
@@ -37,7 +37,7 @@ The GPIO pins used on the pi are defined in the *config.py* file.
 
 An ssh key linked to the account used for github can be put into the pi folder in order to allow the pi to automatically pull the latest master version from the github repository. This is done by updating on Firebase the field: Hardware_Interface\Current_State.
 
-#### An overview of the threads can be seen here:
+#### An overview of the threads
 ![Threads](https://github.com/ledangaravi/Quaestio/blob/master/Schematics/inputThreads.png)
 
 ## Quaestio-Admin-App
