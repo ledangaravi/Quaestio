@@ -24,6 +24,8 @@ The GPIO pins used on the pi are defined in the *config.py* file.
 *main.py* is the main file which has to be executed on start-up using python3.
 *testMotor.py* & *testButtons.py* are two testfiles which can be used to test whether the buttons and slider are working.
 
+An ssh key linked to the account used for github can be put into the pi folder in order to allow the pi to automatically pull the latest master version from the github repository. This is done by updating on Firebase the field: Hardware_Interface\Current_State.
+
 ## Quaestio-Admin-App
 All the code for the admin app can be found in the Admin App folder.
 
