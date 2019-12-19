@@ -32,6 +32,7 @@ An ssh key linked to the account used for github can be put into the pi folder i
 
 ## Quaestio-Admin-App
 All the code for the admin app can be found in the Admin App folder.
+Project team members can configure experiments, control & maintain the robot, and get an overview of collected experimental data through this iOS/iPadOS app.
 
 ### Main Menu
 ![MainMenu](https://user-images.githubusercontent.com/31923016/70916473-a69d1000-2013-11ea-8b67-fc2280e68029.png)
