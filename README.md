@@ -1,7 +1,7 @@
 # Quaestio
-![Threads](https://github.com/ledangaravi/Quaestio/blob/master/Schematics/robotwhole.png)
+![Threads](https://github.com/ledangaravi/Quaestio/blob/master/Schematics/robotWhole.png | width=48)
 ## Head:
-![Threads](https://github.com/ledangaravi/Quaestio/blob/master/Schematics/head.png)
+![Threads](https://github.com/ledangaravi/Quaestio/blob/master/Schematics/head.png | width=48)
 All the code controlling the head can be found in the head directory.
 *quaestio.py* is the main file, which has to be executed on start-up using python3.
 *quastio_constants.py* the pins used on the pi are defined.
