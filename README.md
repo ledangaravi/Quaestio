@@ -2,7 +2,11 @@
 
 ## Head:
 All the code controlling the head can be found in the head directory.
+*quaestio.py* is the main file, which has to be executed on start-up using python3.
+*quastio_constants.py* the pins used on the pi are defined
 
+## Hypothesis Testing:
+This folder contains both the dataset collected *survey_data.json* as well as the notebook *Hypothesis_Testing.ipynb* used for the analysis of the gathered data.
 
 ## Website:
 The index.html file in the website directory allows you to manipulate the website content. The code.js file allows you to fetch the question answers from firebase.
@@ -14,14 +18,14 @@ All the code controlling both the mobility and the mechanical input methods can 
 For the ROS Kinetic Ubuntu is installed on the Raspberry Pi, this is due to the fact that ROS Kinetic only supports Wily (Ubuntu 15.10), Xenial (Ubuntu 16.04) and Jessie (Debian 8) for debian packages. After setting up the pi with the system the following [tutorial](http://wiki.ros.org/ROSberryPi/Installing%20ROS%20Kinetic%20on%20the%20Raspberry%20Pi) can be followed in order to install and use ROS Kinetic.
 
 ### Mechanical input methods
-First all packages from the *requirements.txt* file have to be installed.
+First all packages from the *requirements.txt* file have to be installed using pip3
 The GPIO pins used on the pi are defined in the *config.py* file. 
 
-*main.py* is the main file which has to be executed on start-up.
+*main.py* is the main file which has to be executed on start-up using python3
 *testMotor.py* & *testButtons.py* are two testfiles which can be used to test whether the buttons and slider are working.
 
 ## Quaestio-Admin-App
-Admin App for Quaestio. Imperial College London; ELEC97046 - Human-Centered Robotic 2019-2020
+All the code for the admin app can be found in the Admin App folder.
 
 ### Main Menu
 ![MainMenu](https://user-images.githubusercontent.com/31923016/70916473-a69d1000-2013-11ea-8b67-fc2280e68029.png)
