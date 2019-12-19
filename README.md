@@ -2,7 +2,7 @@
 <img src="https://github.com/ledangaravi/Quaestio/blob/master/Schematics/robotWhole.png" width="200">
 
 ## Head:
-<img src="https://github.com/ledangaravi/Quaestio/blob/master/Schematics/head.png" width="100">
+<img src="https://github.com/ledangaravi/Quaestio/blob/master/Schematics/head.png" width="200">
 All the code controlling the head can be found in the head directory.
 *quaestio.py* is the main file, which has to be executed on start-up using python3.
 *quastio_constants.py* the pins used on the pi are defined.
@@ -12,7 +12,8 @@ This folder contains both the dataset collected *survey_data.json* as well as th
 
 ## Robot App:
 All files regarding the iOS app for the iPad can be found in the folder Robot App.
-<img src="https://github.com/ledangaravi/Quaestio/blob/master/Schematics/flowChartUserApp.png.png" width="200">
+<img src="https://github.com/ledangaravi/Quaestio/blob/master/Schematics/flowChartUserApp.png" width="200">
+<img src="https://github.com/ledangaravi/Quaestio/blob/master/Schematics/UserAppFlowChart.png" width="200">
 
 ## Website:
 The index.html file in the website directory allows you to manipulate the website content. The code.js file allows you to fetch the question answers from firebase.
